@@ -7,6 +7,12 @@
      href = "Style.css" />
 
      <script src="https://code.jquery.com/jquery- 3.4.1.min.js"></script>
+
+     <script> 
+      $(function(){
+        $("#header").load("Header.html"); 
+      });
+      </script> 
  </head>
   
   <title>
@@ -15,7 +21,8 @@
     
   <body> 
 
-    <?php include('header.php') ?>
+    <div id="header"></div>
+        
        <div class = "header">
           Welcome to Bias Aware! This website is currently undergoing development. The purpose of this website is to offer a place to discover unbiased news. All content is used solely for academic purposes.
        </div>
