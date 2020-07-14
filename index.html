@@ -9,14 +9,16 @@
      <script src="https://code.jquery.com/jquery- 3.4.1.min.js"></script>
 
      <script> 
-      $(function(){
-        $("#LoadHeader").load("header.html"); 
-      });
+      $(document).ready(function(){ 
+                
+                    $("#LoadHeader").load("header.html"); 
+                 
+            });
       </script>
 
       <script> 
         $(function(){
-          $("#LoadAbout").load("https://cmanghan.github.io/MyWebsite/AboutUs.html"); 
+          $("#LoadAbout").load("AboutUs.html"); 
         });
         </script>
  </head>
@@ -27,7 +29,7 @@
     
   <body> 
 
-    <div id="#LoadAbout"></div>
+    <div id="#LoadHeader"></div>
     
 
        <div class = 'header'>
