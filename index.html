@@ -8,6 +8,12 @@
 
      <script src="https://code.jquery.com/jquery- 3.4.1.min.js"></script>
 
+     <script> 
+      $(function(){
+        $("#DivContent").load("another_file.html"); 
+      });
+      </script>
+
  </head>
   
   <title>
@@ -16,19 +22,13 @@
     
   <body> 
 
-    <div data-includeHTML="header.html"></div>
+    <div id="DivContent"></div>
 
        <div class = 'header'>
           Welcome to Bias Aware! This website is currently undergoing development. The purpose of this website is to offer a place to discover unbiased news. All content is used solely for academic purposes.
        </div>
 
-       <script>
-        $(document).ready(function () {
-            $("div[data-includeHTML]").each(function () {                
-                $(this).load($(this).attr("data-includeHTML"));
-            });
-        });
-    </script>
+  
 
 </body> 
 
