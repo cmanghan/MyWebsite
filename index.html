@@ -9,22 +9,6 @@
      href = "Style.css" />
 
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-     <script>
-      $(document).ready(function(){
-        $("button").click(function(){
-          alert("The button was clicked.");
-        });
-      });
-      </script>
-
-      <script> 
-        $(document).ready(function(){  
-
-                      $("#LoadHeader").load("head.html"); 
-            
-                    });
-        </script>
  
  </head>
   
@@ -34,7 +18,47 @@
     
   <body> 
   
-    <div id="#LoadHeader"></div>
+    <body>
+      <div id='header'> 
+       
+       <!--div for the bias aware logo -->
+       <div class = "logo">
+        <img src="images/logo.jpg" alt="Logo">
+       </div>
+
+       <!--div for the navigation bar-->
+       <div class="navbar">
+         <a href="AboutUs.html">About Us</a>
+         <a href="#news">News</a>
+         <div class="dropdown">
+           <button class="dropbtn">Dropdown
+             <i class="fa fa-caret-down"></i>
+           </button>
+           <div class="dropdown-content">
+             <div class="row">
+               <div class="column">
+                 <h3>Category 1</h3>
+                 <a href="#">Link 1</a>
+                 <a href="#">Link 2</a>
+                 <a href="#">Link 3</a>
+               </div>
+               <div class="column">
+                 <h3>Category 2</h3>
+                 <a href="#">Link 1</a>
+                 <a href="#">Link 2</a>
+                 <a href="#">Link 3</a>
+               </div>
+               <div class="column">
+                 <h3>Category 3</h3>
+                 <a href="#">Link 1</a>
+                 <a href="#">Link 2</a>
+                 <a href="#">Link 3</a>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       </div>
     
 
        <div class = 'headers'>
