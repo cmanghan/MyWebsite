@@ -16,7 +16,7 @@
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #666666;
+  background-color: #8b0d32ff;
   font-family: Arial;
 }
 
@@ -50,7 +50,7 @@
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #8b0d32ff;
+  background-color: #666666;
 }
 
 /* Dropdown content (hidden by default) */
@@ -104,15 +104,20 @@
 .bitmoji {
   float: left;  
   margin: 5px; 
-  height: 300px;
-  
-}
-
-p { 
-  text-align: justify; 
 
 }
+
+.bitmoji2 {
+  float: right;  
+  margin: 5px; 
+}
+
 
 h1{
   text-align: center;
+  text-decoration: underline;
+}
+
+.ourTeamPage{
+  background-color: white;
 }
