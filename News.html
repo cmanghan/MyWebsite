@@ -1,0 +1,56 @@
+<html>
+
+    <head>
+ 
+      
+        <link rel = "stylesheet"
+      type = "text/css"
+       href = "Style.css" />
+  
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+       <style>
+        body { background-color: #cecece  }
+      </style>
+   </head>
+<body>
+<div class = pageTop>
+    <!--div for the bias aware logo -->
+    <div class = "logo">
+        <img src="images/logo.jpg" alt="Logo">
+      </div>
+
+  <!--div for the navigation bar-->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="OurTeam.html">Our Team</a>
+    <a href="News.html">Find Unbiased News</a>
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <div class="row">
+          <div class="column">
+            <h3>Category 1</h3>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<h1>Search for Neutral Biased News:</h1>
+<form>
+  <input type="text" name="name" class="question" id="nme" required autocomplete="off" />
+  <label for="nme"><span>Enter a search term:</span></label>
+  <input type="submit" value="Submit!" />
+</form>
+
+</body>
+
+</html>

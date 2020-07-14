@@ -17,10 +17,7 @@
   </title>
     
   <body> 
-  
-    <div class = 'headers'>
-      Welcome to Bias Aware! This website is currently undergoing development. The purpose of this website is to offer a place to discover unbiased news. All content is used solely for academic purposes.
-   </div>
+
 
       <div id='header'> 
        
@@ -31,10 +28,11 @@
 
        <!--div for the navigation bar-->
        <div class="navbar">
+        <a href="index.html">Home</a>
          <a href="OurTeam.html">Our Team</a>
-         <a href="#news">News</a>
+         <a href="News.html">Find Unbiased News</a>
          <div class="dropdown">
-           <button class="dropbtn">Dropdown
+           <button class="dropbtn">How It Works
              <i class="fa fa-caret-down"></i>
            </button>
            <div class="dropdown-content">
@@ -50,9 +48,24 @@
          </div>
        </div>
        </div>
-    
 
-  
+    
+    <div id="welcomeBanner">
+        <div id="closeWelcomeBanner">x</div>
+        <p>
+          Welcome to Bias Aware! This website is currently undergoing development. The purpose of this website is to offer a place to discover unbiased news. All content is used solely for academic purposes.
+      </p>
+    </div>
+<script>
+      $(document).ready(function(){   
+        setTimeout(function () {
+            $("#welcomeBanner").fadeIn(100);
+         }, 4000);
+        $("#closeWelcomeBanner").click(function() {
+            $("#welcomeBanner").fadeOut(200);
+        }); 
+    }); 
+  </script>
 
 </body> 
 
