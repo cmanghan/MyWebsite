@@ -291,3 +291,8 @@ input.question:invalid ~ input[type="submit"], textarea.question:invalid ~ input
     opacity: 1;
   }
 }
+
+.NewsTester {
+  background-image: url("/images/old-newspaper.jpg");
+  background-repeat: no-repeat,
+}
