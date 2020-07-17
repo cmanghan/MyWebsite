@@ -107,13 +107,9 @@
 }
 
 
-h1{
-  text-align: center;
-  text-decoration: underline;
-}
-
 .pageTop{
   background-color: white;
+   
 }
 
 /*Welcome Banner Begin*/
@@ -144,14 +140,18 @@ html {
 }
 
 body {
-  margin: 5% auto 0 auto;
-  width: 90%;
-  max-width: 1125px;
+  margin:0 !important;
+  padding: 0 !important;
+  width: 1000%;
+  max-width: 100%;
+  background-color:#cecece;
 }
 
 h1 {
   font-size: 28px;
   margin-bottom: 2.5%;
+  text-align: center;
+  text-decoration: underline;
 }
 
 input,
