@@ -95,17 +95,6 @@
   clear: both;
 }
 
-.bitmoji {
-  float: left;  
-  margin: 5px; 
-
-}
-
-.bitmoji2 {
-  float: right;  
-  margin: 5px; 
-}
-
 
 .pageTop{
   background-color: white;
@@ -292,7 +281,13 @@ input.question:invalid ~ input[type="submit"], textarea.question:invalid ~ input
   }
 }
 
-.NewsTester {
-  background-image: url("/images/old-newspaper.jpg");
-  background-repeat: no-repeat,
+.element {
+  shape-outside: circle(50%);
+  shape-image-threshold: 0.5;
+  float: left;
+}
+
+.MeParagraph{
+
+  font-size: 16;
 }
