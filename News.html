@@ -48,14 +48,29 @@
          </div>
          </div>
         </div>
-<div class = container>
+
 <h1>Search for Neutral Biased News:</h1>
 <form>
   <input type="text" name="name" class="question" id="nme" required autocomplete="off" />
   <label for="nme"><span>Enter a search term here:</span></label>
-  <input type="submit" value="Submit!" />
+  
+  <input type="submit" onclick="submitFunction()" value="Search Title" />
+  <input type="submit" onclick="submitFunction()" value="Search Body" />
+
+
 </form>
-</div>
+
+<p id="submited"></p>
+
+
+
+
+<script>
+  function submitFunction() {
+    document.getElementById("submited").innerHTML = "Hello World";
+  }
+  </script>
+
 </body>
 
 </html>

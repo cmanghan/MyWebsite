@@ -184,7 +184,6 @@ textarea.question + label {
   margin: 0;
   width: 10%;
   border-top: 1px solid #8b0d32ff;
-  -webkit-transition: width 0.4s ease;
   transition: width 0.4s ease;
   height: 0px;
 }
@@ -238,18 +237,17 @@ textarea.question + label > span {
   top: -66px;
   left: 0px;
   z-index: -1;
-  -webkit-transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
   transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
 }
 
 input[type="submit"] {
-  -webkit-transition: opacity 0.2s ease, background 0.2s ease;
   transition: opacity 0.2s ease, background 0.2s ease;
-  display: block;
+  display:inline-block;
   opacity: 0;
   margin: 10px 0 0 0;
   padding: 10px;
   cursor: pointer;
+  text-align:center;
 }
 
 input[type="submit"]:hover {
@@ -261,7 +259,6 @@ input[type="submit"]:active {
 }
 
 input.question:valid ~ input[type="submit"], textarea.question:valid ~ input[type="submit"] {
-  -webkit-animation: appear 1s forwards;
   animation: appear 1s forwards;
 }
 
@@ -269,11 +266,6 @@ input.question:invalid ~ input[type="submit"], textarea.question:invalid ~ input
   display: none;
 }
 
-@-webkit-keyframes appear {
-  100% {
-    opacity: 1;
-  }
-}
 
 @keyframes appear {
   100% {
