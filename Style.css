@@ -283,11 +283,3 @@ input.question:invalid ~ input[type="submit"], textarea.question:invalid ~ input
 
   font-size: 16;
 }
-
-.header-color{
-  !background-color: white
-}
-
-.body-color{
-  background-color: #66ADD4
-}
