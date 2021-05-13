@@ -133,12 +133,9 @@ body {
   padding: 0 !important;
   width: 1000%;
   max-width: 100%;
-  background-color:#66ADD4 !important;
+  background: linear-gradient(to right, red 50%, blue 0%);
 }
 
-head{
-  background-color: white !important
-}
 
 h1 {
   font-size: 28px;
