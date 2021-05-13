@@ -133,7 +133,7 @@ body {
   padding: 0 !important;
   width: 1000%;
   max-width: 100%;
-  background: linear-gradient(to right, red 50%, blue 0%);
+  background-color: #66ADD4 !important
 }
 
 
