@@ -133,7 +133,11 @@ body {
   padding: 0 !important;
   width: 1000%;
   max-width: 100%;
-  background-color:#cecece;
+  background-color:#66ADD4 !important;
+}
+
+head{
+  background-color: white
 }
 
 h1 {
